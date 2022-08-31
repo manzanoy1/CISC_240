@@ -8,8 +8,6 @@ import pandas as pd
 """ Please have the file "pre-Hidden Movie Critic Survey TEST.xlsx"--
 under the same folder as your jupyter/pyCharm so it can read """
 
-
-# Mohamed's Part
 hms = pd.read_excel('pre-Hidden Movie Critic Survey TEST.xlsx')
 
 """ Drama/Romance Questions """
@@ -143,9 +141,6 @@ def horrorThriller(callback):
         i_avg3b = select_range24.drop(['Movie Genre', 'Question'], axis = 1).mean().mean()
         return i_avg3b
 
-
-
-#Yanira/Gisele's Part
 def main_menu():
     menu = 0
     option = 0
