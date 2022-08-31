@@ -10,8 +10,6 @@ import matplotlib.image as mpimg
 """ Please have the file "pre-Hidden Movie Critic Survey TEST.xlsx" along with the images --
 under the same folder as your jupyter/pyCharm so this program can read the necessary files """
 
-
-# Mohamed's Part
 hms = pd.read_excel('pre-Hidden Movie Critic Survey TEST.xlsx')
 
 
@@ -80,7 +78,6 @@ def horrorThriller(callback):
         print("Error")
 
 
-# Gisele's Part
 '''Questions Functions'''
 Q1 = "1) Were these reviews informative for them?"
 Q2 = "2) Were these reviews helpful to them?"
@@ -96,8 +93,6 @@ Questions_Menu = f"""Which questions' results would you like to see?
  {Q1}\n {Q2}\n {Q3}\n {Q4}\n {Q5}\n {Q6}\n {Q7}\n {Q8}\n {N9}"""
 
 
-
-# Mohamed's Part
 """ Graph """
 def barGraph(Question, questionNumber):
     x_values = ["Drama/Romance", "Action/Sci-Fi", "Horror/Thriller"]
@@ -125,7 +120,6 @@ def avg_result(genre, Question, questionNumber):
     back_menu = int(input(f">>"))
 
 
-# Yanira/Gisele's Part
 def main_menu():
     '''Int Variables'''
     menu = 0
